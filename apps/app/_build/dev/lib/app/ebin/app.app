@@ -1,0 +1,10 @@
+{application,app,
+             [{applications,[kernel,stdlib,elixir,logger,nadia]},
+              {description,"app"},
+              {modules,['Elixir.App','Elixir.App.Commander',
+                        'Elixir.App.Commands','Elixir.App.Commands.Outside',
+                        'Elixir.App.Matcher','Elixir.App.Poller',
+                        'Elixir.App.Router']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.App',[]}}]}.
